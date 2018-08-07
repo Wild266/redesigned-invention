@@ -4,7 +4,7 @@
 These notebooks are ported from Google Colab version found here:  https://github.com/noahgift/functional_intro_to_python.  For the most part all the examples should be compatible, although there may occasionally be some differences.  
 For additional content on these topics please view:
 
-* Read [Pragmatic AI:  An Introduction to Cloud-Based Machine Learning] online(https://www.safaribooksonline.com/library/view/pragmatic-ai-an/9780134863924/)
+* Read [Pragmatic AI:  An Introduction to Cloud-Based Machine Learning](https://www.safaribooksonline.com/library/view/pragmatic-ai-an/9780134863924/)
 * Watch [Essential Machine Learning and AI with Python and Jupyter Notebook](https://www.safaribooksonline.com/videos/essential-machine-learning/9780135261118)
 
 
