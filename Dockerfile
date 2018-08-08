@@ -1,4 +1,4 @@
-FROM jupyter/datascience-notebook
+FROM jupyter/datascience-notebook:ae885c0a6226
 
 # launchbot-specific labels
 LABEL name.launchbot.io="Pragmatic AI"
@@ -9,13 +9,7 @@ LABEL 8888.port.launchbot.io="Start Tutorial"
 # Set the working directory
 WORKDIR /home/jovyan
 
-# Install correct versions
-COPY requirements.txt /home/jovyan/requirements.txt
-RUN pip install --upgrade pip
-RUN pip install -r requirements.txt
-
 # Add files
-#COPY *.ipynb /home/jovyan/
 COPY notebooks /home/jovyan/notebooks
 
 # Allow user to write to directory
