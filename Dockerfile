@@ -9,6 +9,10 @@ LABEL 8888.port.launchbot.io="Start Tutorial"
 # Set the working directory
 WORKDIR /home/jovyan
 
+# Modules
+COPY requirements.txt /home/jovyan/requirements.txt
+RUN pip install -r /home/jovyan/requirements.txt
+
 # Add files
 COPY notebooks /home/jovyan/notebooks
 COPY data /home/jovyan/data
