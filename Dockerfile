@@ -11,6 +11,7 @@ WORKDIR /home/jovyan
 
 # Add files
 COPY notebooks /home/jovyan/notebooks
+COPY data /home/jovyan/data
 
 # Allow user to write to directory
 USER root
